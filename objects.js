@@ -1,3 +1,22 @@
+const person = {
+  firstName: "Max",
+  lastName: "Mustermann",
+  age: 29,
+ };
+ console.log(person.firstName, person.lastName, person.age);
+
+const child = {
+  firstName: "Eva",
+  father: {
+  firstName: "Max",
+  lastName: "Mustermann",
+  father: {
+  firstName: "Peter",
+  lastName: "Mustermann",
+  }
+  },
+ }
+
 // Deklaration eines Objekts mit mehreren Eigenschaften
 const fahrzeug = {
     marke: "Toyota",
@@ -25,22 +44,3 @@ const fahrzeug = {
   // Noch tiefer verschachtelte Eigenschaften
   console.log(fahrzeug.eigenschaften.zusatzInfo.besitzer); // Miralem
   console.log(fahrzeug.eigenschaften.zusatzInfo.angemeldet); // true
-
-const person = {
-    firstName: "Max",
-    lastName: "Mustermann",
-    age: 29,
-   };
-   console.log(person.firstName, person.lastName, person.age);
-
-const child = {
-    firstName: "Eva",
-    father: {
-    firstName: "Max",
-    lastName: "Mustermann",
-    father: {
-    firstName: "Peter",
-    lastName: "Mustermann",
-    }
-    },
-   }
