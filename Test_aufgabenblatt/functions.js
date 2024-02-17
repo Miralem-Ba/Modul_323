@@ -19,3 +19,4 @@ function fahrenheit(celsius) {
 const modulo = (a, b) => a % b;
 console.log(modulo(10, 3));
 console.log(modulo(10, 5));
+   
